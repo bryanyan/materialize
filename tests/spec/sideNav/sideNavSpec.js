@@ -21,4 +21,4 @@ describe("Expandable SideNav", function () {
       expect(sideNav).toBeVisible('Should be visible after sidenav is expanded');
     })
   });
-}
+});
