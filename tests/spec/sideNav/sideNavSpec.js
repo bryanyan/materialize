@@ -18,7 +18,10 @@ describe("Expandable SideNav", function () {
 
       expDemoButton.click();
 
-      expect(sideNav).toBeVisible('Should be visible after sidenav is expanded');
+      setTimeout(function() {
+        expect(sideNav).toBeVisible('Should be visible after sidenav is expanded');
+        done();
+      }, 500);
     })
   });
 });
